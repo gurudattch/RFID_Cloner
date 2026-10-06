@@ -29,7 +29,7 @@ A. Flash the ESP8266 firmware (one-time, ~10 min)
 
     ⚠️ Power the MFRC522 from 3V3, never 5V.
 
-    Open /home/z/my-project/download/esp8266-rfid/RFID_Cloner.ino → select your board + port → Upload.
+    Open cloner.ino → select your board + port → Upload.
 
     Open Serial Monitor at 115200 baud. The ESP8266 boots into AP mode and advertises a WiFi network called RFID-Cloner-Setup. Join it from your phone/laptop, browse to 192.168.4.1, pick your home WiFi, enter its password. The ESP8266 reboots and prints:
     text
